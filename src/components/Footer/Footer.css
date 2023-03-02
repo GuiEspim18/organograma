@@ -1,0 +1,34 @@
+.footer {
+    background: #6278F7;
+    text-align: center;
+    height: 213px;
+    background-image: url("/public/images/fundo.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.footer .content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 100%;
+    flex-wrap: wrap;
+}
+
+.footer .content .social-media {
+    width: 10%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer .content .social-media img {
+    width: 20px;
+}
+
+.footer .content .dev-name p {
+    color: #fff;
+}
